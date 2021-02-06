@@ -1,6 +1,7 @@
  /*Run BaguetteBox Plugin*/
  baguetteBox.run(".gallery");
- 
+
+ /*Custom searchbar logic*/
 const searchbar = document.querySelector("#search");
 
 function captionSearch() {

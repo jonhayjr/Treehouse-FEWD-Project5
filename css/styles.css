@@ -5,8 +5,8 @@
 input {
     display: block;
     padding: 15px;
-    max-width: 550px;
-    width: 75%;
+    max-width: 500px;
+    width: 50%;
     margin: 30px auto;
     border: solid 2px lightgray;
     border-radius: 5px;
@@ -15,15 +15,16 @@ input {
 
 input::placeholder {
     font-family: 'Roboto', sans-serif;
-    color: slategray;
-    font-weight: 400;
-    opacity: 1;
+    color: rgba(112, 128, 144, 0.794);
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    font-size: 16px;
     text-align: left;
 }
 
 input:focus {
     outline: none;
-    border: solid 2px lightgray;
+    border: solid 2px rgba(112, 128, 144, 0.534);
 }
 
 .gallery {
