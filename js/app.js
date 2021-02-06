@@ -8,7 +8,7 @@ function captionSearch() {
     const thumbnail = document.querySelectorAll("a");
     const searchInput = searchbar.value.toLowerCase();
     for (let i= 0; i < thumbnail.length; i++) {
-        let thumbnailCaption = thumbnail[i].getAttribute("data-caption");
+        let thumbnailCaption = thumbnail[i].getAttribute("data-caption").toLowerCase();
         if (thumbnailCaption.indexOf(searchInput) >= 0) {
             thumbnail[i].style.display = "";
         } else {
